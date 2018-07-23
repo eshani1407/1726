@@ -1,5 +1,5 @@
 
-public class nonTeachingstaff extends staff{
+public abstract class nonTeachingstaff extends staff{
 
 	private Integer noofEmploye;
 	
@@ -19,7 +19,4 @@ public class nonTeachingstaff extends staff{
 		this.noofEmploye = noofEmploye;
 	}
 	
-	public void calculateSalary(){
-		System.out.println("Salary for non-teching staff");
-	}
 }

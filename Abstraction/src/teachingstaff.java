@@ -1,8 +1,7 @@
 
-public class teachingstaff extends staff {
+public abstract class teachingstaff extends staff {
 	private Integer id;
 	
-
 	public Integer getNoofEmploye() {
 		return id;
 	}
@@ -19,9 +18,6 @@ public class teachingstaff extends staff {
 		this.id = id;
 	}
 	
-	public void calculateSalary(){
-		System.out.println("Salary for teching staff");
-	}
-	
+
 	
 }
